@@ -7,6 +7,3 @@ def findSum(n):
         sum = sum + i
         i = i + 1
     return sum
-if __name__ == "__main__":
-    n = 5
-    print(findSum(n))
