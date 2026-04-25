@@ -28,3 +28,20 @@ def sum(n):
 if __name__ == "__main__":
     n = 5
     print(sum(n))
+
+
+'''
+Need of Recursion?
+
+Recursion helps in logic building. Recursive thinking helps in solving complex problems by breaking them into smaller subproblems.
+Recursive solutions work as a a basis for Dynamic Programming and Divide and Conquer algorithms.
+Certain problems can be solved quite easily using recursion like Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc.
+What is the base condition in recursion? 
+A recursive program stops at a base condition. There can be more than one base conditions in a recursion. In the above program, the base condition is when n = 1.
+
+How a particular problem is solved using recursion? 
+The idea is to represent a problem in terms of one or more smaller problems, and add one or more base conditions that stop the recursion.  
+
+
+
+'''
